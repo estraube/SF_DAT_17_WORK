@@ -1,0 +1,12 @@
+Elliott Straube's One Pager
+
+I have two ideas for my project.
+
+One is a machine learning algorithm around data at my company, to do unsupervised representation (extracting structure) on the data.
+
+Some sample data is in this folder labeled Sample_Atlassian.csv
+
+
+
+Another idea is to do a prediction on how likely a prediction model on an average income in a city using only the weather. 
+Hypothesis is that colder cities make more money. People with good weather don't work as hard :)
