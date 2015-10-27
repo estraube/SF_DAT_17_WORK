@@ -1,12 +1,42 @@
-Elliott Straube's One Pager
-
-I have two ideas for my project.
-
-One is a machine learning algorithm around data at my company, to do unsupervised representation (extracting structure) on the data.
-
-Some sample data is in this folder labeled Sample_Atlassian.csv
+See formatted version of this file here: https://docs.google.com/document/d/1LhKfqZprDEs851SWt0iZNouFGa-6EzKwoL9mpHKKcBc/edit
 
 
+Problem statement and hypothesis
 
-Another idea is to do a prediction on how likely a prediction model on an average income in a city using only the weather. 
-Hypothesis is that colder cities make more money. People with good weather don't work as hard :)
+I would like to predict how “upvoted” a reddit comment will be. My hypothesis is that certain words will be present in the most upvoted comments (and that this will vary by subreddit).
+Description of your data set and how it was obtained
+
+Kaggle Dataset: https://www.kaggle.com/c/reddit-comments-may-2015
+
+Description of any pre-processing steps you took
+
+I’m pretty good at SQL, so I pre-prepare the dataset that I import with SQLite, and then move it into a Dataframe after it is a more management size (for speed) and format. 
+
+What you learned from exploring the data, including visualizations
+
+Here is an EDA I did: https://www.kaggle.com/estraube/reddit-comments-may-2015/comments-per-post-per-subreddit
+
+Certain subreddits (the sports ones) have many comments per average post. This may lead to a dilution in the value of each individual comment.
+
+How you chose which features to use in your analysis
+
+I am an avid reddit user and this was the best dataset I can find. Comment and human behavior interest me. 
+
+Details of your modeling process, including how you selected your models and validated them
+
+Models are still TBD. I am leaning towards a 
+
+Your challenges and successes
+
+A big challenge so far is the size of the dataset which leads to slow processing time. I want to use all of the data for a month, so to potentially reduce the size I will focus on specific subreddits.
+
+I am happy I was able to create a live EDA script in the Kaggle platform. 
+
+Possible extensions or business applications of your project
+
+This would be interesting for an automated comment displaying formula (which reddit has). This would help them predict what comments will be popular and surface them to the top. 
+
+Conclusions and key learnings
+
+TBD
+
